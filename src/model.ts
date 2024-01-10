@@ -16,3 +16,8 @@ export type Estado =
   | "ME_PLANTO_MAYOR_IGUAL_6"
   | "MOSTRAR_PUNTOS"
   | "ERROR";
+
+
+  
+  export const setPuntuacion = (nuevosPuntos: number) =>
+  (partida.puntuacion = nuevosPuntos);
